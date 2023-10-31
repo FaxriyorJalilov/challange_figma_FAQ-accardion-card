@@ -8,11 +8,10 @@
 }
 body {
   background: linear-gradient(180deg, #af68ea 0%, #6563e8 100%);
-  /* background-repeat: no-repeat; */
-  overflow: hidden;
 }
 .header_box {
   width: 920px;
+  height: 510px;
 }
 .container {
   width: 100vw;
@@ -28,7 +27,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 60px 72px 70px 0px;
+  padding: 62px 72px 79px 0px;
   overflow: hidden;
 }
 
@@ -40,11 +39,11 @@ body {
 .box_right .bg_pattern {
   position: absolute;
   margin-right: -555px;
-  margin-top: -550px;
+  margin-top: -543px;
 }
 .box_right .woman_online {
   position: absolute;
-  margin-left: 494px;
+  margin-left: 554px;
   margin-top: -180px;
   /* overflow: hidden; */
   z-index: 2;
