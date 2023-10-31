@@ -28,13 +28,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 62px 72px 85px 0px;
+  padding: 60px 72px 70px 0px;
   overflow: hidden;
 }
 
 .box_right {
   /* background-image: url(./imgs/bg-pattern-desktop.svg); */
   margin-left: -555px;
+  z-index: 5;
 }
 .box_right .bg_pattern {
   position: absolute;
@@ -45,6 +46,7 @@ body {
   position: absolute;
   margin-left: 494px;
   margin-top: -180px;
+  /* overflow: hidden; */
   z-index: 2;
 }
 .box_right .box_cobe {
